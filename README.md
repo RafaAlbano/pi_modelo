@@ -45,7 +45,7 @@ RN05 - Produção do pedido: Com a visualização do pedido, o cozinheiro poder�
 
 RN06 - Comanda para entrega: Após feito o lanche, será expedida uma comanda com dados do pedido e nome do cliente para o entregador, com as informações de endereço do cliente.
 
-RN06 - Entrega: O pedido será entregue no local solicitado pelo cliente ou com a opção de ser retirado pelo cliente no balcão. 
+RN06 - Entrega: O pe´dido será entregue no local solicitado pelo cliente ou com a opção de ser retirado pelo cliente no balcão. 
 
 RN08 - Relatórios - Somente o administrador poderá ver todos os relatórios de faturamento e estoque de produtos. 
 
@@ -54,25 +54,28 @@ RN08 - Relatórios - Somente o administrador poderá ver todos os relatórios de
 **Entrada:**
 
 - **RF01 - Registro de cliente:** O sistema deve possibilitar que os clientes se registrem. **Dados Necessários:** nome, telefone, email, endereço. **Usuários:** cliente.
+Necessários:** nome, telefone,
+**Usuário:** funcionário.
+- RF02 - Cadastro de produtos: O sistema deve possibilitar cadastro de produtos. 
 
 **Processamento:**
-RF02 - O sistema deve encaminhar o pedido para a atendente.
+RF03 - O sistema deve encaminhar o pedido para a atendente.
 
-RF03 - O sistema deve informar um tempo extipulado para o pedido chegar em sua residência. 
+RF04 - O sistema deve informar um tempo extipulado para o pedido chegar em sua residência. 
 
 **Saída:**
 
-RF04 - O sistema deve mostrar os produtos do cardápio.
+RF05 - O sistema deve mostrar os produtos do cardápio.
 
-RF05 - O sistema deve adicionar os produtos escolhidos pelo cliente no carrinho.
+RF06 - O sistema deve adicionar os produtos escolhidos pelo cliente no carrinho.
 
-RF06 - O sistema deve fornecer uma aba para que o cliente escolha a forma de pagamento(cartão, dinheiro ou pix). 
+RF07 - O sistema deve fornecer uma aba para que o cliente escolha a forma de pagamento(cartão, dinheiro ou pix). 
 
-RF07 - O sistema deve fornecer uma aba para que a atendente possa vizualizar os pedidos. 
+RF08 - O sistema deve fornecer uma aba para que a atendente possa vizualizar os pedidos. 
 
-RF08 - O sistema deve fornecer um prazo de entrega do pedido. 
+RF09 - O sistema deve fornecer um prazo de entrega do pedido. 
 
-RF09 - O sistema deve fornecer um código para que o cliente pague por pix. 
+RF10 - O sistema deve fornecer um código para que o cliente pague por pix. 
 
 RF11 - O sistema deve emitir um relatório semanal do  faturamento e dos produtos. 
 
